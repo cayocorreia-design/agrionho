@@ -1,1 +1,127 @@
+# index.html
 
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+
+    <!-- Ligação com o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho principal -->
+    <header class="header">
+        <div class="container">
+            <h1 id="titulo">Agro Forte, Futuro Sustentável</h1>
+
+            <!-- Menu de navegação -->
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <!-- Botão modo escuro -->
+            <button id="darkModeBtn">🌙 Modo Escuro</button>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção principal -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Produzir hoje pensando no amanhã</h2>
+                <p>
+                    O agronegócio sustentável une tecnologia, preservação ambiental
+                    e produtividade para garantir alimentos e recursos para as futuras gerações.
+                </p>
+
+                <button id="mensagemBtn">Clique para uma mensagem</button>
+
+                <!-- Mensagem dinâmica -->
+                <p id="mensagem"></p>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Campo sustentável">
+            </div>
+        </section>
+
+        <!-- Seção sobre -->
+        <section id="sobre" class="section">
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+                A sustentabilidade no campo é essencial para manter o equilíbrio entre produção agrícola,
+                preservação dos recursos naturais e qualidade de vida.
+            </p>
+
+            <p>
+                O uso consciente da água, energia limpa e técnicas modernas ajuda a reduzir impactos ambientais.
+            </p>
+        </section>
+
+        <!-- Seção benefícios -->
+        <section id="beneficios" class="section cards-section">
+
+            <h2>Benefícios do Agro Sustentável</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🌱 Preservação</h3>
+                    <p>Proteção do solo, rios e florestas.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🚜 Tecnologia</h3>
+                    <p>Uso de inovação para aumentar a produtividade.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌎 Futuro</h3>
+                    <p>Garantia de recursos naturais para próximas gerações.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Formulário -->
+        <section id="contato" class="section">
+
+            <h2>Entre em Contato</h2>
+
+            <form id="formulario">
+
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+            <!-- Resultado da validação -->
+            <p id="resultadoFormulario"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>© 2026 - Agro Forte | Desenvolvimento Sustentável</p>
+    </footer>
+
+    <!-- Ligação com JavaScript externo -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
